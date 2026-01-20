@@ -6,7 +6,7 @@
 
 ## 📺 Project Demo Video
 
-<video src="https://github.com/user-attachments/assets/YOUR_VIDEO_ID_HERE" controls width="100%"></video>
+<video src="https://github.com/user-attachments/assets/76201450-6f40-4eda-9f2a-d800016b72ec" controls width="100%"></video>
 
 **Complete walkthrough** showing real-time monitoring and alert system.
 
