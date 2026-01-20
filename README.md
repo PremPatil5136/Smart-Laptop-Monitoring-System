@@ -1,16 +1,176 @@
-# smart_laptop_monitoring_system
+# 🖥️ Smart Laptop Monitoring System
 
-A new Flutter project.
+**Real-time Laptop Health Monitoring via Mobile App**
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📺 Project Demo Video
 
-A few resources to get you started if this is your first Flutter project:
+<video src="https://github.com/user-attachments/assets/YOUR_VIDEO_ID_HERE" controls width="100%"></video>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**Complete walkthrough** showing real-time monitoring and alert system.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Full working demonstration showing real-time monitoring and alerts
+
+🔗 [GitHub Repository](#)
+
+---
+
+## 📋 Introduction
+
+**Smart Laptop Monitoring System** - Developed a software system to remotely monitor laptop charging status even when the laptop is closed or not in use. The application provides real-time battery level, storage usage, system updates, virus detection, and alert notifications via a mobile interface. Implemented secure Firebase integration with encryption and authentication to enhance laptop performance, safety, and user convenience.
+
+---
+
+## 📱 Application Screenshots
+
+### 🏠 Home Dashboard
+
+![Home Screen](./Utils/Home-screen.png)
+
+Real-time monitoring of battery, storage, performance, and system health metrics at a glance.
+
+---
+
+### 🔔 Alert System
+
+![Alerts Screen](./Utils/Alert-screen.png)
+
+Color-coded notifications for critical events with severity levels and swipe-to-dismiss.
+
+---
+
+### 👤 User Profile
+
+![Account Screen](./Utils/Acount-screen.png)
+
+User account management, device information, system preferences, and logout functionality.
+
+---
+
+### 🔐 Authentication
+
+![Login Screen](./Utils/Login-screen.png)
+
+Secure login with Firebase Authentication ensuring data privacy and user security.
+
+---
+
+### 🐍 Backend API
+
+![Backend](./Utils/Backend.png)
+
+Python Flask service collecting system metrics and pushing data to Firebase in real-time.
+
+---
+
+### 🔥 Database Structure
+
+![Firebase](./Utils/database.png)
+
+Firebase Firestore showing organized collections for users, battery, system status, and alerts.
+
+---
+
+## 🏗️ System Architecture
+```
+┌─────────────┐      ┌─────────────┐      ┌─────────────┐      ┌─────────────┐
+│   Flutter   │ ⬌   │   Firebase  │ ⬌   │  Flask API  │ ⬌   │  Laptop OS  │
+│ Mobile App  │      │ Cloud Database│     │ Backend Service│   │System Metrics│
+└─────────────┘      └─────────────┘      └─────────────┘      └─────────────┘
+```
+
+---
+
+## 🎯 Key Objectives & Features
+
+### 🔋 Battery Monitoring
+Real-time battery tracking with percentage, charging status, and time remaining alerts
+
+### ⚡ Charging Events
+Track charging state changes and maintain charging history logs
+
+### 💾 Storage Tracking
+Monitor disk space usage, total storage, used space, and free space in real-time
+
+### 🚀 Performance Metrics
+Track CPU usage, RAM consumption, and system performance indicators
+
+### 🛡️ Antivirus Status
+Monitor antivirus protection status and detect security threats
+
+### 🔄 System Updates
+Track pending system updates and ensure OS is up to date
+
+### 🔔 Smart Alerts
+Instant notifications with severity levels - Info, Warning, and Critical alerts
+
+### 🔒 Secure Authentication
+Firebase Authentication with email/password for secure user access
+
+---
+
+## 🛠️ Technology Stack
+
+### Frontend
+Flutter, Dart, Material Design 3
+
+### Backend
+Python, Flask, psutil
+
+### Cloud
+Firebase Auth, Firestore
+
+---
+
+## 🚨 Files NOT Pushed to GitHub
+
+**The following files/folders are excluded from this repository for security and best practices:**
+
+### 🔒 Security Files (NEVER COMMIT!)
+- `Backend/serviceAccountKey.json` - Firebase private keys
+- `firebase-adminsdk-*.json` - Firebase admin credentials  
+- `android/app/google-services.json` - Firebase config with API keys
+- `.env` - Environment variables with secrets
+
+**Why?** Exposing these = Anyone can access your database, steal data, or rack up bills!
+
+### 📦 Dependencies & Build Files
+- `Backend/venv/` - Python virtual environment (3000+ files, system-specific)
+- `__pycache__/`, `*.pyc` - Python cache (auto-generated)
+- `.dart_tool/`, `build/` - Flutter build files (auto-generated)
+
+**Why?** Too large, platform-specific, and can be recreated easily.
+
+### 🔧 Setup Instructions for New Developers
+
+1. **Get Firebase Credentials:**
+   - Go to [Firebase Console](https://console.firebase.google.com/)
+   - Download `serviceAccountKey.json` → Place in `Backend/`
+   - Download `google-services.json` → Place in `android/app/`
+
+2. **Install Dependencies:**
+```bash
+   cd Backend
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+```
+
+3. **Run Flutter App:**
+```bash
+   flutter pub get
+   flutter run
+```
+
+---
+
+## 👨‍💻 Developer
+
+**Smart Laptop Monitoring System**
+
+Developed by **❤️ Prem Patil**
+
+📧 Premvishwa6847@gmail.com
+
+© 2026 All Rights Reserved
