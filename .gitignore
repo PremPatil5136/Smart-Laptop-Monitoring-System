@@ -1,0 +1,36 @@
+﻿# Python virtual environment
+Backend/venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Firebase credentials - NEVER COMMIT!
+Backend/serviceAccountKey.json
+serviceAccountKey.json
+firebase-adminsdk-*.json
+
+# Android Firebase config
+android/app/google-services.json
+
+# Environment variables
+.env
+*.env
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
