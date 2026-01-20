@@ -26,7 +26,7 @@ Full working demonstration showing real-time monitoring and alerts
 
 ### 🏠 Home Dashboard
 
-![Home Screen](./Utils/Home-screen.png)
+<img src="./Utils/Home-screen.png" width="200" alt="Home Screen">
 
 Real-time monitoring of battery, storage, performance, and system health metrics at a glance.
 
@@ -34,7 +34,7 @@ Real-time monitoring of battery, storage, performance, and system health metrics
 
 ### 🔔 Alert System
 
-![Alerts Screen](./Utils/Alert-screen.png)
+<img src="./Utils/Alert-screen.png" width="200" alt="Alerts Screen">
 
 Color-coded notifications for critical events with severity levels and swipe-to-dismiss.
 
@@ -42,7 +42,7 @@ Color-coded notifications for critical events with severity levels and swipe-to-
 
 ### 👤 User Profile
 
-![Account Screen](./Utils/Acount-screen.png)
+<img src="./Utils/Acount-screen.png" width="200" alt="Account Screen">
 
 User account management, device information, system preferences, and logout functionality.
 
@@ -50,7 +50,7 @@ User account management, device information, system preferences, and logout func
 
 ### 🔐 Authentication
 
-![Login Screen](./Utils/Login-screen.png)
+<img src="./Utils/Login-screen.png" width="200" alt="Login Screen">
 
 Secure login with Firebase Authentication ensuring data privacy and user security.
 
@@ -58,7 +58,7 @@ Secure login with Firebase Authentication ensuring data privacy and user securit
 
 ### 🐍 Backend API
 
-![Backend](./Utils/Backend.png)
+<img src="./Utils/Backend.png" width="200" alt="Backend">
 
 Python Flask service collecting system metrics and pushing data to Firebase in real-time.
 
@@ -66,7 +66,7 @@ Python Flask service collecting system metrics and pushing data to Firebase in r
 
 ### 🔥 Database Structure
 
-![Firebase](./Utils/database.png)
+<img src="./Utils/database.png" width="200" alt="Firebase Database">
 
 Firebase Firestore showing organized collections for users, battery, system status, and alerts.
 
