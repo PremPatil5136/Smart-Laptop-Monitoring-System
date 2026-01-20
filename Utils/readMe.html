@@ -123,6 +123,48 @@ Firebase Auth, Firestore
 
 ---
 
+## 🚨 Files NOT Pushed to GitHub
+
+**The following files/folders are excluded from this repository for security and best practices:**
+
+### 🔒 Security Files (NEVER COMMIT!)
+- `Backend/serviceAccountKey.json` - Firebase private keys
+- `firebase-adminsdk-*.json` - Firebase admin credentials  
+- `android/app/google-services.json` - Firebase config with API keys
+- `.env` - Environment variables with secrets
+
+**Why?** Exposing these = Anyone can access your database, steal data, or rack up bills!
+
+### 📦 Dependencies & Build Files
+- `Backend/venv/` - Python virtual environment (3000+ files, system-specific)
+- `__pycache__/`, `*.pyc` - Python cache (auto-generated)
+- `.dart_tool/`, `build/` - Flutter build files (auto-generated)
+
+**Why?** Too large, platform-specific, and can be recreated easily.
+
+### 🔧 Setup Instructions for New Developers
+
+1. **Get Firebase Credentials:**
+   - Go to [Firebase Console](https://console.firebase.google.com/)
+   - Download `serviceAccountKey.json` → Place in `Backend/`
+   - Download `google-services.json` → Place in `android/app/`
+
+2. **Install Dependencies:**
+```bash
+   cd Backend
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
+```
+
+3. **Run Flutter App:**
+```bash
+   flutter pub get
+   flutter run
+```
+
+---
+
 ## 👨‍💻 Developer
 
 **Smart Laptop Monitoring System**
